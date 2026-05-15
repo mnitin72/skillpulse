@@ -1,3 +1,4 @@
+```yaml
 name: SkillPulse CI/CD
 
 on:
@@ -34,3 +35,4 @@ jobs:
       - name: Push frontend image
         run: |
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/skillpulse-frontend
+```
