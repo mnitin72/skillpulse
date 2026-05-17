@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# remote version
+=======
+# your version
+>>>>>>> 9ef90a3
 ```yaml
 name: SkillPulse CI/CD
 
@@ -36,3 +41,7 @@ jobs:
         run: |
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/skillpulse-frontend
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9ef90a3 (add ci)
